@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html la    ="en">
+<head>
+<meta charset="UTF-8">
+<script>
+    function NewTab(){
+    window.log = document.getElementsByName("login")[0].value;
+    window.paswor = document.getElementsByName("pasword")[0].value;
+    
+    window.localStorage.setItem("log", log)
+    window.localStorage.setItem("paswor", paswor)
+    alert("Ваш логин: " + log + ", Ваш пароль: " + paswor);
+    window,location.href='file:///C:/Users/Mikhail/Documents/GameRedBoxshop/Основа.html'
+    }
+</script>
+
+<title>
+регистрация
+</title>
+<body bgcolor="#AFEEEE">
+    <center>
+        <input type = "text" name = "login"> </input>
+        <p>Логин</p>
+        <br>
+        <input type = "text" name = "pasword"> </input>
+        <p>Пароль</p><br>
+        <button type=message onclick="NewTab()">Здать логин и пароль </button>
+    </center>
+</body>
+</head>
+</html> 
