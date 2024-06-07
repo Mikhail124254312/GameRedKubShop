@@ -1,2 +1,0 @@
-# GameRedKubShop
-GameRedBoxShop
